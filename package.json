@@ -1,0 +1,22 @@
+{
+  "name": "@isirode/environment-configuration",
+  "version": "1.0.0",
+  "description": "This project allow to transform .env.json JSON to a .env single line JSON to use as environment variable",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Isirode",
+  "license": "AGPLv3",
+  "bin": {
+    "enviro": "./dist/app.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.3",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "jsonc": "^2.0.0"
+  }
+}
