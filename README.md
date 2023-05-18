@@ -24,7 +24,8 @@ Supported .env files:
 
 It is what I use for configuring my ParcelJS projects.
 
-It was made, because other libraries, trying to solve the same problem, offer to create keys like OBJ_SUBKEY_SUBKEY, with an unclear path to sub-sub properties, etc. 
+It was made, because other libraries, trying to solve the same problem, offer to create keys like OBJ_SUBKEY_SUBKEY, with an unclear path to sub-sub properties, etc.
+
 This tool allow to use a simple JSON as a configuration.
 
 ## Using the project
